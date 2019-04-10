@@ -41,4 +41,4 @@ app.listen(3000, function () {
 app.use('/css', express.static('css'));
 app.use('/favicon.ico', express.static('favicon.jpeg'));
 app.use('/js', express.static('js'));
-app.use('/json2yaml', express.static('json-to-yaml.html'));
+app.use('/json2yaml', express.static('json2yaml.html'));
